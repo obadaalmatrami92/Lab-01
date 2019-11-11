@@ -1,0 +1,103 @@
+@media only screen and (max-width: 960px) {
+    .header {
+        grid-area: header;
+        background-color: green;
+        text-align: center;
+        line-height: 75px;
+    }
+    .nav {
+        grid-area: nav;
+        background-color: darkblue;
+        text-align: center;
+        line-height: 150px;
+    }
+    .ad {
+        grid-area: ad;
+        background-color: goldenrod;
+        text-align: center;
+        line-height: 125px;
+    }
+    .element-nav {
+        grid-area: element-nav;
+        background-color: pink;
+        text-align: center;
+        line-height: 125px;
+    }
+    .ele1 {
+        grid-area: ele1;
+        background-color: rgb(243, 226, 130);
+        text-align: center;
+        line-height: 250px;
+    }
+    .ele2 {
+        grid-area: ele2;
+        background-color: rgb(43, 173, 3);
+        text-align: center;
+        line-height: 250px;
+    }
+    .ele3 {
+        grid-area: ele3;
+        background-color: rgb(0, 109, 100);
+        text-align: center;
+        line-height: 250px;
+    }
+    .ele4 {
+        grid-area: ele4;
+        background-color: rgb(133, 5, 150);
+        text-align: center;
+        line-height: 250px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        grid-area: header;
+        height: auto;
+        background-color: gray;
+        text-align: center;
+        line-height: 9em;
+    }
+    .nav {
+        grid-area: nav;
+        background-color: red;
+        height: 600px;
+        text-align: center;
+        line-height: 35em;
+    }
+    .ad {
+        grid-area: ad;
+        background-color: blue;
+        text-align: center;
+        line-height: 9em;
+    }
+    .element-nav {
+        grid-area: element-nav;
+        background-color: gold;
+        text-align: center;
+        line-height: 9em;
+    }
+    .ele1 {
+        grid-area: ele1;
+        background-color: aqua;
+        text-align: center;
+        line-height: 18em;
+    }
+    .ele2 {
+        grid-area: ele2;
+        background-color: pink;
+        text-align: center;
+        line-height: 18em;
+    }
+    .ele3 {
+        grid-area: ele3;
+        background-color: orange;
+        text-align: center;
+        line-height: 18em;
+    }
+    .ele4 {
+        grid-area: ele4;
+        background-color: orangered;
+        text-align: center;
+        line-height: 18em;
+    }
+}
